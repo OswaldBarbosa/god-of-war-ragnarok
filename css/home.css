@@ -1,0 +1,12 @@
+.home{
+    background-image: url(../img/background-home.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.god__of__war{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+}
