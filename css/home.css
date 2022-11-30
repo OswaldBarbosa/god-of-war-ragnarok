@@ -1,14 +1,27 @@
+
 .home{
-    background-image: url(../img/background-home.png);
+    background-image: url(../img/background-home\ \(5\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
+    display: grid;
+    grid-template-areas: "logo seta";
 }
 
-.god-of-war{
+.god__of__war{    
+    padding-top: 60px;
+    padding-left: 110px;
+    grid-area: logo;
+}
+
+.button{
     display: flex;
     align-items: flex-end;
-    height: 115px;
-    padding-left: 110px;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    font-size: 38px;
+    color: #ffffff;
+    grid-area: seta;
 }
