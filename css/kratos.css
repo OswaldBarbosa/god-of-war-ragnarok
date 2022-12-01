@@ -5,4 +5,15 @@
     background-position: center;
     width: 100%;
     height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "kratos informacao";
+}
+
+.kratos__personagem{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    grid-area: kratos;
+    padding-left: 110px;
 }
