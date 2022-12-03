@@ -17,3 +17,13 @@
     grid-area: kratos;
     padding-left: 110px;
 }
+
+.informacoes__kratos{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 10px;
+    font-size: 32px;
+    grid-area: informacao;
+    color: #fff;
+}
