@@ -13,7 +13,6 @@
 .title__sobre{
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
     padding-left: 110px;
     height: 450px;
     width: 35vw;
