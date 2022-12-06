@@ -1,0 +1,46 @@
+.freya{
+    background-image: url(../img/background-omega.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "title freya"
+    "informacao freya"
+    "imagem freya";
+}
+
+.freya__personagem{
+    height: 950px;
+    margin-top: 15px;
+    grid-area: freya;
+}
+
+.title__freya{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 200px;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 550;
+    font-family: 'Inter', sans-serif;
+    grid-area: title;
+}
+
+.informacao__freya{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 800px;
+    font-family: 'Inter', sans-serif;
+    grid-area: informacao;
+}
+
+.imagem__freya{
+    margin-left: 18rem;
+}
