@@ -1,4 +1,4 @@
-.kratos{
+.atreus{
     background-image: url(../img/background-omega.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,40 +7,40 @@
     height: 100vh;
     display: grid;
     grid-template-areas: 
-    "kratos title"
-    "kratos informacao "
-    "kratos imagem";
+    "title atreus"
+    "informacao atreus"
+    "imagem atreus";
 }
 
-.kratos__personagem{
+.atreus__personagem{
     height: 1000px;
     margin-top: 40px;
-    margin-left: 11rem;
-    grid-area: kratos;
+    grid-area: atreus;
 }
 
-.title__kratos{
+.title__atreus{
     display: flex;
     align-items: flex-end;
+    margin-left: 200px;
     font-size: 3.5rem;
     font-weight: 550;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Inter', sans-serif;
     grid-area: title;
 }
 
-.informacao__kratos{
+.informacao__atreus{ 
     display: flex;
     align-items: center;
+    margin-left: 200px;
     font-size: 2rem;
     font-weight: 100;
     width: 800px;
     color: #fff;
     font-family: 'Inter', sans-serif;
-    grid-area: informacao;
 }
 
-.imagem__kratos{
-    margin-left: 8rem;
+.imagem__atreus{
+    margin-left: 17rem;
     grid-area: imagem;
 }

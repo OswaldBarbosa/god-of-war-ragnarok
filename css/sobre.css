@@ -13,20 +13,20 @@
 .title__sobre{
     display: flex;
     align-items: flex-end;
-    padding-left: 110px;
+    margin-left: 200px;
     height: 450px;
     width: 35vw;
     color: white;
-    font-size: 43px;
+    font-size: 3.5rem;
     font-weight: 300;
     font-family: 'Inter', sans-serif;
 }
 .informacoes__sobre{
     display: flex;
-    align-items: center;
-    padding-left: 110px;
-    width: 870px;
-    font-size: 20px;
+    align-items: flex-start;
+    margin-left: 200px;
+    width: 900px;
+    font-size: 2rem;
     height: 350px;
     color: white;
     font-weight: 500;

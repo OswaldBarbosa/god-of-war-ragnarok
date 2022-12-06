@@ -1,4 +1,4 @@
-.kratos{
+.mimir{
     background-image: url(../img/background-omega.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,40 +7,40 @@
     height: 100vh;
     display: grid;
     grid-template-areas: 
-    "kratos title"
-    "kratos informacao "
-    "kratos imagem";
+    "mimir title"
+    "mimir informacao"
+    "mimir imagem";
 }
 
-.kratos__personagem{
+.mimir__personagem{
     height: 1000px;
-    margin-top: 40px;
-    margin-left: 11rem;
-    grid-area: kratos;
+    margin-top: 30px;
+    margin-left: 20rem;
+    grid-area: mimir;
 }
 
-.title__kratos{
+.title__mimir{
     display: flex;
     align-items: flex-end;
     font-size: 3.5rem;
     font-weight: 550;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Inter', sans-serif;
     grid-area: title;
 }
 
-.informacao__kratos{
+.informacao__mimir{
     display: flex;
     align-items: center;
     font-size: 2rem;
     font-weight: 100;
     width: 800px;
-    color: #fff;
+    color: #ffffff;
     font-family: 'Inter', sans-serif;
     grid-area: informacao;
 }
 
-.imagem__kratos{
-    margin-left: 8rem;
-    grid-area: imagem;
+.imagem__mimir{
+    margin-left: 12rem;
+    grid: imagem;
 }
