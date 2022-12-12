@@ -1,0 +1,68 @@
+.equipamentos{
+    background-image: url(../img/background-equipamentos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    grid-template-areas: 
+    "title-machado machado"
+    "informacao-machado machado"
+    "arco title-arco"
+    "arco informacao-arco";
+}
+
+.machado{
+    grid-area: machado;
+}
+
+.title__machado{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 3.5rem;
+    font-weight: 550;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    grid-area: title-machado;
+}
+
+.informacao__machado{
+    display: flex;
+    margin-left: 200px;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 700px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    grid-area: informacao-machado;
+}
+
+.arco{
+    margin-left: 200px;
+    grid-area: arco;
+}
+
+.title__arco{
+    display: flex;
+    align-items:center ;
+    font-size: 3.5rem;
+    font-weight: 100;
+    width: 500px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    grid-area: title-arco;
+}
+
+.informacao__arco{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 700px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    grid-area: informacao-arco;
+}
+
+
+
