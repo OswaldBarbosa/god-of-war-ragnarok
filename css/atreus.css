@@ -44,3 +44,9 @@
     margin-left: 17rem;
     grid-area: imagem;
 }
+
+@media(max-width: 700px){
+    .atreus{
+        display: none;
+    }
+}

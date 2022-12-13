@@ -64,5 +64,11 @@
     grid-area: informacao-arco;
 }
 
+@media(max-width: 700px){
+    .equipamentos{
+        display: none;
+    }
+}
+
 
 
