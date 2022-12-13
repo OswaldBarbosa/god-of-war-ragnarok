@@ -59,17 +59,17 @@
         "imagem";
     }
 
-    .kratos__personagem{
-        height: 800px;
-        margin-left: 140px;
-    }
-
     .title__kratos{
         display: flex;
         align-items: flex-start;
         margin-top: 50px;
         margin-left: 50px;
         grid-area: title;
+    }
+
+    .kratos__personagem{
+        height: 800px;
+        margin-left: 50px;
     }
 
     .informacao__kratos{
