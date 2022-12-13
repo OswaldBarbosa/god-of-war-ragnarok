@@ -26,3 +26,22 @@
     color: #ffffff;
     grid-area: seta;
 }
+
+@media(max-width: 700px){
+    .home{
+        background-size: cover;
+        background-position: center;
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .god__of__war{
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .button{
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+}

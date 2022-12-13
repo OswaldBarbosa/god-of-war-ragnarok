@@ -10,6 +10,7 @@
     "titulo"
     "sobre";
 }
+
 .title__sobre{
     display: flex;
     align-items: flex-end;
@@ -21,6 +22,7 @@
     font-weight: 300;
     font-family: 'Inter', sans-serif;
 }
+
 .informacoes__sobre{
     display: flex;
     align-items: flex-start;
@@ -31,4 +33,27 @@
     color: white;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
+}
+
+@media(max-width: 700px){
+    .sobre{
+        background-position: right;
+        width: 100vh;
+    }
+
+    .title__sobre{
+        display: flex;
+        align-items: flex-end;
+        width: 400px;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-left: 100px;
+    }
+
+    .informacoes__sobre{
+        margin-left: 100px;
+        font-size: 1.5rem;
+        width: 710px;
+    }
+
 }

@@ -44,3 +44,41 @@
     margin-left: 8rem;
     grid-area: imagem;
 }
+
+@media(max-width: 700px){
+    .kratos{
+        width: 100vh;
+        height: 150vh;
+        background-position: center;
+        background-size: cover;
+        display: grid;
+        grid-template-areas: 
+        "title"
+        "kratos"
+        "informacao"
+        "imagem";
+    }
+
+    .title__kratos{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 50px;
+        margin-left: 50px;
+        grid-area: title;
+    }
+
+    .kratos__personagem{
+        height: 800px;
+        margin-left: 50px;
+    }
+
+
+
+    .informacao__kratos{
+        display: none;
+    }
+
+    .imagem__kratos{
+        display: none;
+    }
+}
