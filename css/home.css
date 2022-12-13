@@ -10,7 +10,7 @@
     "logo seta";
 }
 
-.god__of__war{    
+.god__of__war{   
     margin-top: 60px;
     margin-left: 110px;
     grid-area: logo;
@@ -27,21 +27,30 @@
     grid-area: seta;
 }
 
-@media(max-width: 700px){
+@media(max-width: 640px){
     .home{
-        background-size: cover;
+        background-size: 100vw;
+        background-size: 100vh;
+        background-color: #000000;
         background-position: center;
         width: 100%;
         height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "imagem button";
     }
 
     .god__of__war{
-        margin-left: 40px;
-        margin-top: 40px;
+        height: 10vw;
+        margin-left: 8vw;
+        margin-top: 8vw;
+        grid-area: imagem;
     }
 
     .button{
+        font-size: 8vw;
         margin-right: 15px;
         margin-bottom: 15px;
+        grid-area: button;
     }
 }

@@ -37,24 +37,30 @@
 
 @media(max-width: 700px){
     .sobre{
-        background-position: right;
+        background-position: center;
         width: 100%;
-        height: 100vh;
+        height: 80vh;
+        display: grid;
+        grid-template-areas: 
+        "title"
+        "informacao";
     }
 
     .title__sobre{
-        display: flex;
         align-items: flex-end;
-        width: 400px;
-        font-size: 2rem;
-        font-weight: 500;
+        width: 200px;
+        font-size: 1rem;
+        font-weight: 400;
         margin-left: 50px;
+        grid-area: title;
     }
 
     .informacoes__sobre{
         margin-left: 50px;
-        font-size: 1.2rem;
-        width: 630px;
+        margin-top: 40px;
+        font-size: .5rem;
+        width: 200px;
+        grid-area: informacao;
     }
 
 }
