@@ -47,7 +47,7 @@
 
 @media(max-width: 700px){
     .kratos{
-        width: 100vh;
+        width: 100%;
         height: 150vh;
         background-position: center;
         background-size: cover;
@@ -59,6 +59,11 @@
         "imagem";
     }
 
+    .kratos__personagem{
+        height: 800px;
+        margin-left: 140px;
+    }
+
     .title__kratos{
         display: flex;
         align-items: flex-start;
@@ -67,16 +72,12 @@
         grid-area: title;
     }
 
-    .kratos__personagem{
-        height: 800px;
-        margin-left: 50px;
-    }
-
-
-
     .informacao__kratos{
         display: none;
     }
+
+
+
 
     .imagem__kratos{
         display: none;
