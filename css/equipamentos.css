@@ -1,22 +1,22 @@
-.equipamentos{
+.equipamentos {
     background-image: url(../img/background-equipamentos.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 120vh;
     display: grid;
-    grid-template-areas: 
-    "title-machado machado"
-    "informacao-machado machado"
-    "arco title-arco"
-    "arco informacao-arco";
+    grid-template-areas:
+        "title-machado machado"
+        "informacao-machado machado"
+        "arco title-arco"
+        "arco informacao-arco";
 }
 
-.machado{
+.machado {
     grid-area: machado;
 }
 
-.title__machado{
+.title__machado {
     display: flex;
     align-items: center;
     margin-left: 200px;
@@ -27,7 +27,7 @@
     grid-area: title-machado;
 }
 
-.informacao__machado{
+.informacao__machado {
     display: flex;
     margin-left: 200px;
     font-size: 2rem;
@@ -38,14 +38,14 @@
     grid-area: informacao-machado;
 }
 
-.arco{
+.arco {
     margin-left: 200px;
     grid-area: arco;
 }
 
-.title__arco{
+.title__arco {
     display: flex;
-    align-items:center ;
+    align-items: center;
     font-size: 3.5rem;
     font-weight: 100;
     width: 500px;
@@ -54,7 +54,7 @@
     grid-area: title-arco;
 }
 
-.informacao__arco{
+.informacao__arco {
     display: flex;
     font-size: 2rem;
     font-weight: 100;
@@ -64,11 +64,61 @@
     grid-area: informacao-arco;
 }
 
-@media(max-width: 700px){
-    .equipamentos{
-        display: none;
+@media(max-width: 700px) {
+    .equipamentos {
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        grid-template-areas:
+            "title-machado machado"
+            "informacao-machado"
+            "arco title-arco title-arco"
+            "informacao-arco";
     }
+
+    .title__machado {
+        font-size: 1.3rem;
+        font-weight: 550;
+        width: 50vw;
+        margin-left: 5vw;
+        grid-area: title-machado;
+    }
+
+    .machado {
+        height: 55vw;
+        margin-top: 20vw;
+        margin-right: 10vw;
+        grid-area: machado;
+    }
+
+    .informacao__machado {
+        font-size: .8rem;
+        font-weight: 500;
+        width: 50vw;
+        margin-left: 5vw;
+        grid-area: informacao-machado;
+    }
+
+    .arco {
+        height: 55vw;
+        margin-left: 5vw;
+        margin-top: 10vw;
+        grid-area: arco;
+    }
+
+    .title__arco {
+        font-size: 1.3rem;
+        font-weight: 550;
+        width: 40vw;
+        grid-area: title-arco;
+    }
+
+    .informacao__arco {
+        font-size: .8rem;
+        font-weight: 500;
+        width: 45vw;
+    }
+
 }
-
-
-

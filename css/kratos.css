@@ -1,4 +1,4 @@
-.kratos{
+.kratos {
     background-image: url(../img/background-omega.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,20 +6,20 @@
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-areas: 
-    "kratos title"
-    "kratos informacao "
-    "kratos imagem";
+    grid-template-areas:
+        "kratos title"
+        "kratos informacao "
+        "kratos imagem";
 }
 
-.kratos__personagem{
+.kratos__personagem {
     height: 1000px;
     margin-top: 40px;
     margin-left: 11rem;
     grid-area: kratos;
 }
 
-.title__kratos{
+.title__kratos {
     display: flex;
     align-items: flex-end;
     font-size: 3.5rem;
@@ -29,7 +29,7 @@
     grid-area: title;
 }
 
-.informacao__kratos{
+.informacao__kratos {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -41,13 +41,13 @@
     grid-area: informacao;
 }
 
-.imagem__kratos{
+.imagem__kratos {
     margin-left: 8rem;
     grid-area: imagem;
 }
 
-@media(max-width: 640px){
-    .kratos{
+@media(max-width: 640px) {
+    .kratos {
         width: 100%;
         height: 150vh;
         background-position: center;
@@ -55,13 +55,13 @@
         background-size: 100vw;
         background-size: 100vh;
         background-color: #000;
-        grid-template-areas: 
-        "title"
-        "kratos"
-        "informacao";
+        grid-template-areas:
+            "title"
+            "kratos"
+            "informacao";
     }
 
-    .title__kratos{
+    .title__kratos {
         display: flex;
         align-items: flex-start;
         font-size: 10vw;
@@ -70,13 +70,13 @@
         grid-area: title;
     }
 
-    .kratos__personagem{
+    .kratos__personagem {
         height: 70vh;
         margin-left: 1vw;
         grid-area: kratos;
     }
 
-    .informacao__kratos{
+    .informacao__kratos {
         display: flex;
         align-items: flex-start;
         margin-left: 5vw;
@@ -85,7 +85,8 @@
         grid-area: informacao;
     }
 
-    .imagem__kratos{
+    .imagem__kratos {
         display: none;
     }
+
 }

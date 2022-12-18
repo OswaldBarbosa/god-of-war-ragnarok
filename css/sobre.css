@@ -55,8 +55,9 @@
     .informacoes__sobre {
         display: flex;
         align-items: flex-start;
-        font-size: 4vw;
+        font-size: .8rem;
         width: 95vw;
         margin-left: 5vw;
     }
+
 }
