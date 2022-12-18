@@ -1,4 +1,4 @@
-.mimir{
+.mimir {
     background-image: url(../img/background-omega.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,20 +6,20 @@
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-areas: 
-    "mimir title"
-    "mimir informacao"
-    "mimir imagem";
+    grid-template-areas:
+        "mimir title"
+        "mimir informacao"
+        "mimir imagem";
 }
 
-.mimir__personagem{
+.mimir__personagem {
     height: 1000px;
     margin-top: 30px;
     margin-left: 20rem;
     grid-area: mimir;
 }
 
-.title__mimir{
+.title__mimir {
     display: flex;
     align-items: flex-end;
     font-size: 3.5rem;
@@ -29,7 +29,7 @@
     grid-area: title;
 }
 
-.informacao__mimir{
+.informacao__mimir {
     display: flex;
     align-items: center;
     font-size: 2rem;
@@ -40,13 +40,51 @@
     grid-area: informacao;
 }
 
-.imagem__mimir{
+.imagem__mimir {
     margin-left: 12rem;
     grid: imagem;
 }
 
-@media(max-width:700px){
-    .mimir{
+@media(max-width: 640px) {
+    .mimir {
+        width: 100%;
+        height: 150vh;
+        background-position: center;
+        background-size: cover;
+        background-size: 100vw;
+        background-size: 100vh;
+        background-color: #000;
+        grid-template-areas:
+        "title"
+        "mimir"
+        "informacao";
+    }
+
+    .title__mimir {
+        display: flex;
+        align-items: flex-start;
+        font-size: 10vw;
+        margin-top: 50px;
+        margin-left: 50px;
+        grid-area: title;
+    }
+
+    .mimir__personagem {
+        height: 70vh;
+        margin-left: 25vw;
+        grid-area: mimir;
+    }
+
+    .informacao__mimir {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 5vw;
+        font-size: 1.1rem;
+        width: 95vw;
+        grid-area: informacao;
+    }
+
+    .imagem__mimir {
         display: none;
     }
 }
