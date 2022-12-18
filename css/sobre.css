@@ -46,7 +46,7 @@
     .title__sobre {
         display: flex;
         align-items: center;
-        font-size: 7vw;
+        font-size: 1.5rem;
         font-weight: 500;
         width: 85vw;
         margin-left: 5vw;
@@ -55,7 +55,7 @@
     .informacoes__sobre {
         display: flex;
         align-items: flex-start;
-        font-size: .8rem;
+        font-size: .9rem;
         width: 95vw;
         margin-left: 5vw;
     }
