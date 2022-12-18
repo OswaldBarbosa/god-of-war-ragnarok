@@ -8,13 +8,3 @@
     color: var(--primary-color);
     grid-area: seta;
 }
-
-@media (max-width: 640px){
-    .button{
-        font-size: 8vw;
-        margin-right: 15vw;
-        margin-bottom: 5vw;
-        grid-area: button;
-    }
-}
-
