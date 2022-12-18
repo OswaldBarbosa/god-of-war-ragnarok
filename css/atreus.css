@@ -24,7 +24,7 @@
     margin-left: 200px;
     font-size: 3.5rem;
     font-weight: 550;
-    color: #ffffff;
+    color: var(--primary-color);
     font-family: 'Inter', sans-serif;
     grid-area: title;
 }
@@ -36,7 +36,7 @@
     font-size: 2rem;
     font-weight: 100;
     width: 800px;
-    color: #fff;
+    color: var(--primary-color);
     font-family: 'Inter', sans-serif;
 }
 

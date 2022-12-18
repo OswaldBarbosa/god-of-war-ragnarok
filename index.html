@@ -8,7 +8,9 @@
     <script src="https://kit.fontawesome.com/53801ac64e.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/sobre.css">
     <link rel="stylesheet" href="./css/kratos.css">
     <link rel="stylesheet" href="./css/atreus.css">
@@ -24,17 +26,27 @@
 
     <main>
 
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
         <section class="home">
 
             <div>
                 <img src="img/god-of-war.png" alt="logo god of war" class="god__of__war">
             </div>
 
-            <div class="button">
-                <a href="#sobre">
+                <a href="#sobre" class="button">
                     <i class="fas fa-arrow-down"></i>
                 </a>
-            </div>
 
         </section>
 
@@ -153,7 +165,9 @@
     </main>
 
     <footer>
-
+        <p>
+            Todos os diretos reservados 2022 | Desenvolvido por Oswaldo Barbosa
+        </p>
     </footer>
 
 </body>

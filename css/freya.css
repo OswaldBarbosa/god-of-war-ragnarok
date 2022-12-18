@@ -22,10 +22,9 @@
     display: flex;
     align-items: flex-end;
     margin-left: 200px;
-    color: #fff;
+    color: var(--primary-color);
     font-size: 3.5rem;
     font-weight: 550;
-    font-family: 'Inter', sans-serif;
     grid-area: title;
 }
 
@@ -33,11 +32,10 @@
     display: flex;
     align-items: center;
     margin-left: 200px;
-    color: #fff;
+    color: var(--primary-color);
     font-size: 2rem;
     font-weight: 100;
     width: 800px;
-    font-family: 'Inter', sans-serif;
     grid-area: informacao;
 }
 
