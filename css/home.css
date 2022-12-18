@@ -49,8 +49,8 @@
 
     .button{
         font-size: 8vw;
-        margin-right: 15px;
-        margin-bottom: 15px;
+        margin-right: 8vw;
+        margin-bottom: 8vw;
         grid-area: button;
     }
 }

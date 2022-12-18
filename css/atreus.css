@@ -45,8 +45,8 @@
     grid-area: imagem;
 }
 
-@media(max-width: 700px){
+@media(max-width: 640px){
     .atreus{
-        display: none;
+        
     }
 }

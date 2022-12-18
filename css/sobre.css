@@ -1,4 +1,4 @@
-.sobre{
+.sobre {
     background-image: url(../img/background-sobre.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,12 +6,12 @@
     width: 100%;
     height: 110vh;
     display: grid;
-    grid-template-areas: 
-    "titulo"
-    "sobre";
+    grid-template-areas:
+        "titulo"
+        "sobre";
 }
 
-.title__sobre{
+.title__sobre {
     display: flex;
     align-items: flex-end;
     margin-left: 200px;
@@ -23,7 +23,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-.informacoes__sobre{
+.informacoes__sobre {
     display: flex;
     align-items: flex-start;
     margin-left: 200px;
@@ -35,31 +35,28 @@
     font-family: 'Inter', sans-serif;
 }
 
-@media(max-width: 640px){
-    .sobre{
-        background-position: center;
-        width: 100%;
+@media(max-width: 640px) {
+    .sobre {
+        width: 100vw;
         height: 100vh;
-        display: grid;
-        grid-template-areas: 
-        "title"
-        "informacao";
+        background-size: cover;
+        background-position: center;
     }
 
-    .title__sobre{
+    .title__sobre {
+        display: flex;
         align-items: center;
-        width: 60vw;
-        font-size: 1.2rem;
-        font-weight: 400;
-        margin-left: 50px;
-        grid-area: title;
+        font-size: 7vw;
+        font-weight: 500;
+        width: 85vw;
+        margin-left: 5vw;
     }
 
-    .informacoes__sobre{
-        margin-left: 50px;
-        font-size: .5rem;
-        width: 200px;
-        grid-area: informacao;
+    .informacoes__sobre {
+        display: flex;
+        align-items: flex-start;
+        font-size: 4vw;
+        width: 95vw;
+        margin-left: 5vw;
     }
-
 }
